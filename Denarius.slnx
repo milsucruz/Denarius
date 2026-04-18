@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Ledger/">
+    <Project Path="src/Modules/Ledger/Denarius.Modules.Ledger.Application/Denarius.Modules.Ledger.Application.csproj" />
+    <Project Path="src/Modules/Ledger/Denarius.Modules.Ledger.Domain/Denarius.Modules.Ledger.Domain.csproj" />
+    <Project Path="src/Modules/Ledger/Denarius.Modules.Ledger.Infrastructure/Denarius.Modules.Ledger.Infrastructure.csproj" />
+    <Project Path="src/Modules/Ledger/Denarius.Modules.Ledger.Presentation/Denarius.Modules.Ledger.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/" />
+  <Folder Name="/src/Shared/SharedKernel/">
+    <Project Path="src/Shared/SharedKernel/Denarius.Shared.SharedKernel.csproj" />
+  </Folder>
+</Solution>
