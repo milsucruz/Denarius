@@ -10,8 +10,14 @@
     <Project Path="src/Modules/Ledger/Denarius.Modules.Ledger.Infrastructure/Denarius.Modules.Ledger.Infrastructure.csproj" />
     <Project Path="src/Modules/Ledger/Denarius.Modules.Ledger.Presentation/Denarius.Modules.Ledger.Presentation.csproj" />
   </Folder>
-  <Folder Name="/src/Shared/" />
+  <Folder Name="/src/Shared/">
+    <File Path="CriacaoArquivos.txt" />
+  </Folder>
   <Folder Name="/src/Shared/SharedKernel/">
     <Project Path="src/Shared/SharedKernel/Denarius.Shared.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/Ledger/">
+    <Project Path="tests/Ledger/Denarius.Modules.Ledger.Domain.Tests/Denarius.Modules.Ledger.Domain.Tests.csproj" />
   </Folder>
 </Solution>
