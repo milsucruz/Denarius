@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Denarius.Domain\Denarius.Domain.csproj" />
+    <ProjectReference Include="..\Denarius.Infrastructure\Denarius.Infrastructure.csproj" />
+    <ProjectReference Include="..\Denarius.CrossCutting\Denarius.CrossCutting.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

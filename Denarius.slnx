@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Denarius.Api/Denarius.Api.csproj" />
+    <Project Path="src/Denarius.Application/Denarius.Application.csproj" />
+    <Project Path="src/Denarius.CrossCutting/Denarius.CrossCutting.csproj" />
+    <Project Path="src/Denarius.Domain/Denarius.Domain.csproj" />
+    <Project Path="src/Denarius.Infrastructure/Denarius.Infrastructure.csproj" />
+    <Project Path="src/Denarius.IoC/Denarius.IoC.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Denarius.Api.Tests/Denarius.Api.Tests.csproj" />
+    <Project Path="tests/Denarius.Domain.Tests/Denarius.Domain.Tests.csproj" />
+    <Project Path="tests/Denarius.Integration.Tests/Denarius.Integration.Tests.csproj" />
+  </Folder>
+</Solution>
