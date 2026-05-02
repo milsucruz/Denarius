@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Denarius.Api\Denarius.Api.csproj" />
     <ProjectReference Include="..\Denarius.Application\Denarius.Application.csproj" />
     <ProjectReference Include="..\Denarius.Domain\Denarius.Domain.csproj" />
     <ProjectReference Include="..\Denarius.Infrastructure\Denarius.Infrastructure.csproj" />
