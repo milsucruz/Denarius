@@ -33,7 +33,7 @@ than asking one clarifying question.
 ## Core Rules
 
 - All names in **English** — ubiquitous language of the project
-- Never use `AutoMapper` — use **Mapster** for object mapping
+- Use **Mapster** for object mapping
 - Mapster lives exclusively in the **Application** layer — never in Domain, Infrastructure, or Api
 - Every bounded context has a dedicated mapping class `{BoundedContext}Mappings` inside `Application/UseCases/{BoundedContext}/Mappings/`
 - The mapping class uses static `ToDto()` / `ToResponse()` extension methods — never `.Adapt<T>()` inline in handlers or controllers
